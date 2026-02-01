@@ -60,6 +60,25 @@ section p, li {
   line-height: 1.6;
   color: #e5e7eb;
 }
+    /* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeUp 1s ease-out forwards;
+}
+
+.sections {
+  animation: fadeUp 1.4s ease-out forwards;
+}
   </style>
 </head>
 <body>
